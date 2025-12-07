@@ -13,7 +13,7 @@ function App() {
         setLoading( true );
 
         try{
-            const response = await fetch('https://jsonplaceholder.typicode.com/todos');
+            const response = await fetch('https://fake-json-api.mock.beeceptor.com/companies');
             if (response.ok ){
                 const data = await response.json();
                 console.log(data);

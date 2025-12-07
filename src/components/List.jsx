@@ -7,7 +7,7 @@ function List({ list }){
             {
                 list.map( listItem => (
                     <tr>
-                        <td>{listItem.title.rendered}</td>
+                        <td>{listItem.name}</td>
                     </tr>
                 ) )
             }
