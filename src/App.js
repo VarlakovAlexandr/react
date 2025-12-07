@@ -13,7 +13,7 @@ function App() {
         setLoading( true );
 
         try{
-            const response = await fetch('https://jsonplaceholder.com/todos/1');
+            const response = await fetch('https://jsonplaceholder.typicode.com/todos');
             if (response.ok ){
                 const data = await response.json();
                 console.log(data);
